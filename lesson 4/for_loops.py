@@ -1,0 +1,40 @@
+#create a list of names
+names = ["Alise","Bob","Charlie","David"]
+
+#Iterate in the names list and print every names
+for name in names:
+    print(name)
+
+################################################
+
+sentence = "Hello, World!"
+
+for character in sentence:
+    if character.isalpha(): #Check if the character is a letter
+        print(character)
+
+################################################
+
+for number in range(1,6):
+    print(number)
+
+##################################################
+
+numbers = [12,45,6,72,21,8,94,57]
+
+maximum = numbers[0]
+
+for num in numbers:
+    if num > maximum:
+     maximum = num
+print("The maximum value in the list is:",maximum)
+
+
+numbers = [12,45,6,72,21,8,94,57]
+
+maximum = numbers[0]
+
+for num in numbers:
+    if num < maximum:
+     maximum = num
+print("The minimum value in the list is:",maximum)
